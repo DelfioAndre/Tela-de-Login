@@ -76,31 +76,30 @@ form > div.campo {
     margin: 5px 0px;
 }
 
-div.camp > label {
+div.campo > label {
     display: none;
 
 }
 
-div.camp > img {
+div.campo > span {
     color: white;
     /*background-color: black;*/
-
     font-size: 2em;
     width: 40px;
     padding: 5px;
 
 }
 
-div.camp > input {
+div.campo > input {
     background-color: #94cfcd;
     font-size: 1em;
-    width: calc(100% - 44px);
+    width: calc(100% - 45px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px);
-
+    transform: translateY(-11px);
+ 
 }
 
 div.campo > input:focus-within {
@@ -140,11 +139,11 @@ form > a.botao {
     text-decoration: none;
 }
 
-form >a.botao:hover {
+form > a.botao:hover {
     background-color: #6cd3cf;
 }
  
-form > a.botao > img {
+form > a.botao > span {
     font-size: 0.8em;
 
 }
