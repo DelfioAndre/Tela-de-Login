@@ -114,7 +114,8 @@ form > input[type=submit] {
     height: 40px;
     background-color: #49a09d;
     color: white;
-    border-radius: px;
+    border: none;
+    border-radius: 7px;
     cursor: pointer;
 }
 
